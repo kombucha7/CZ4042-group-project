@@ -1,0 +1,20 @@
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mNameError[0m                                 Traceback (most recent call last)
+[0;32m<ipython-input-1-cd9f1c0e4ac6>[0m in [0;36m<module>[0;34m[0m
+[1;32m      6[0m    [0;34m"id"[0m[0;34m:[0m [0;34m"initial_id"[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      7[0m    "metadata": {
+[0;32m----> 8[0;31m     [0;34m"collapsed"[0m[0;34m:[0m [0mtrue[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m      9[0m    },
+[1;32m     10[0m    [0;34m"outputs"[0m[0;34m:[0m [0;34m[[0m[0;34m][0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+
+[0;31mNameError[0m: name 'true' is not defined
+Traceback (most recent call last):
+  File "/apps/anaconda3/bin/jupyter-run", line 11, in <module>
+    sys.exit(main())
+  File "/apps/anaconda3/lib/python3.7/site-packages/jupyter_core/application.py", line 268, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/apps/anaconda3/lib/python3.7/site-packages/traitlets/config/application.py", line 664, in launch_instance
+    app.start()
+  File "/apps/anaconda3/lib/python3.7/site-packages/jupyter_client/runapp.py", line 115, in start
+    raise Exception("jupyter-run error running '%s'" % filename)
+Exception: jupyter-run error running 'start.ipynb'
